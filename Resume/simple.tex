@@ -1,0 +1,160 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Mikael Dubik}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Studentvägen 30:33 \\
+  Uppsala \\
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: 0767782630 \\
+    Email: mkdubik@gmail.com \\
+    linkedin: https://is.linkedin.com/in/mikael-dubik-aa9b5494 \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Work experience}
+
+\begin{itemize}
+\item
+  \ressubheading{Dohop, Flight search engine}{Reykjavík, Iceland}{Chief mobile developer and server engineer}{May 2013 - August 2015}
+  \begin{itemize}
+    \resitem{Implementation and deployment of Dohop for Android. Team leader.}
+    \resitem{Maintenance of back end services and servers.}
+    \resitem{Website crawling and writing web spiders.}
+  \end{itemize}
+
+\item
+  \ressubheading{University of Iceland}{Reykjavík, Iceland}{Research and development}{May 2012 - Aug. 2013}
+  \begin{itemize}
+    \resitem{Part of a group working on virtual environment for crisis management training to complement live exercise training.}
+    \resitem{Implemented voice recognition to control non-player characters in the virtual environment}
+  \end{itemize}
+
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+\item
+  \ressubheading{Uppsala University}{Uppsala, Sweden}{M.Sc., Computer Science}{Aug. 2015 - }
+
+\item
+  \ressubheading{University of Iceland}{Reykjavík, Iceland}{B.Sc., Computer Science}{Aug. 2010 - Feb. 2014}
+
+\end{itemize}
+
+\section*{Technology experience}
+
+\begin{itemize}
+\item Python, Twisted framework, async servers
+\item Android (IntelliJ and Eclipse), NDK (C/C++)
+\item OpenGL and OpenCV
+\item Java and C\#
+\item Use Linux everyday. Know how to use the commandline.
+
+\end{itemize}
+
+
+\section*{Extra curricular}
+
+\begin{itemize}
+\item Member of BEST Uppsala and organized a local engineering competition, EBEC.
+\item
+\end{itemize}
+
+
+\end{document}
