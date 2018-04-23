@@ -1,0 +1,16 @@
+Hej,
+
+My name is Mikael and I'm applying for the position of Data engineer. I originate from Reykjavík, Iceland and currently live there but I have lived in Uppsala, Sweden before. I found the job ad on glassdoor.com and the job description got me interested.
+
+A little info about me: I have been programming professionally for 5 years, first for University of Iceland for a research project then as a backend engineer for the flight search engine Dohop. I moved to Uppsala in 2015 and got my masters degree from Uppsala University with a focus on graph analysis in C++11. I've moved back to Iceland after my graduation and worked briefly for Marorka as a Data engineer. At Marorka I designed and deployed an ETL pipeline using Apache Kafka, Kafka streams with Docker, Zookeeper and the Confluent platform but I'm currently looking for other opportunities.
+
+I'm mostly interested in data collection (ETL design) and analysis, backend systems development and maintenance. I feel mostly comfortable working in a Linux ecosystem and I have experience working in the cloud with AWS. I have experience writing code in Python, Java, R, C++11 and C#. I'm experienced with many database technologies such as MySQL, postgres, MSSQL, redis, Kafka and managed databases such as AWS DynamoDB or AWS RDS.
+
+I'm comfortable working in a team (have Agile/Scrum training) but I'm also capable of working independently. I'm a quick to pick up new concepts and fast to produce working code.    
+
+In my spare time I'm mostly interested in reading about new technology, cycling, lifting and cooking. I also enjoy travel and getting to know new cultures. I am also an active blood donor.
+
+Thank you for reading my letter and I hope to hear from you back.
+
+All the best,
+Mikael Dubik.

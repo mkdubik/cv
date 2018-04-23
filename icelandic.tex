@@ -1,0 +1,123 @@
+\documentclass[10pt]{article}
+\usepackage[ampersand]{easylist}
+\usepackage[icelandic]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\lhead{Mikael Dubik, Tölvunarfræðingur}
+
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+\textbf{\@title}
+
+\@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+\title{\Huge Mikael Dubik}
+\date{}
+\author{%
+\huge Tölvunarfræðingur\\
+\vspace*{8cm}\Large Einholt 7, 105 Reykjavík, Ísland\\
+  +354 8484903\\
+  mkdubik@gmail.com\\
+  https://dubik.is\\
+  github.com/mkdubik\\
+}
+
+\titleformat{\section}{\normalfont\fontsize{14}{14}\bfseries}{\thesection}{1em}{}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\begin{flushleft}
+
+\section*{Hver ég er}
+\large Ég heiti Mikael Dubik og ég er útskrifaður Tölvunarfræðingur, fæddur og uppalinn í Reykjavík. Allt mitt líf hef ég verið að vinna í verkefnum með aðstoð tölva, frá HTML kóðun síðan ég var barn og þar til ég varð atvinnu forritari. Verkefnin sem ég vinn við eru á því sviði sem ég er áhugasamur um á þeim tíma. Ég varð atvinnuforritari sumarið 2012 í Háskóla Íslands og hef einungis forritað fyrir atvinnu síðan þá. \newline
+
+Þegar ég er ekki að skrifa hugbúnað þá er hægt að finna mig í ræktinni, úti að hjóla, að ferðast eða í eldhúsinu að elda eitthvað nýtt. Ég er fær um að lesa og rita á Íslensku, Ensku, Pólsku og ég get bjargað mér í Sænsku.
+
+\section*{Hverju ég er að leita að}
+Mér finnst skemmtilegt að þróa hugbúnað og leysa flókin vandamál með aðstoð tölva. Ég hef sérstakan áhuga á að vinna í verkefnum sem sjálfvirkja mikla handavinnu, bakenda forritun tölvukerfa og gervigreind. 
+
+Tilvalin vinnustaður fyrir mig væri væri sá sem er að kljást við að leysa flókin vandamál, styður frumleika og vinnur með opin hugbúnað og forritunarmál. Ég er reyndur Linux notandi og vil helst vinna í slíku umhverfi en það er ekki nauðsyn.
+
+\section*{Tæknireynsla}
+Ég hef reynslu í eftirfarandi forritunarmálum og hugbúnaði: \newline
+
+\begin{tabular}{ l l l l l l}
+Python & Java & C++11 & C & Matlab & R\\
+NumPy & DTrace & OpenCV & DLib & Django & git\\
+Kafka & Zookeeper & EC2 &  & Android & \\
+MySQL & postgresql & MSSQL & redis & AWS DynamoDB \\
+\end{tabular}
+
+\newpage
+
+\section*{Ferilskrá}
+Ég hef stundað nám og unnið hjá eftirfarandi fyrirtækjum og stofnunum: \newline
+
+\begin{itemize}
+  \item \textbf{Marorka} (\textit{Okt. 2017 - Maí. 2018})
+  \begin{itemize}
+  \item Ábyrgur fyrir að hanna og úfæra ETL gagnapípu með því að nota Apache Kafka, EC2 og aðrar AWS þjónustur.
+  \item Ábyrgur fyrir að hanna og útfæra OData API endapunkt með Java og Olingo.
+  \end{itemize}
+  \item \textbf{Uppsala University} (\textit{Ágú. 2015 - Okt. 2017})
+  \begin{itemize}
+  \item Masters gráða í Tölvunarfræði með áheyrslu á gervigreind.
+  \item Masters verkefni í gervigreind. Útfærði hópunar reiknirit á tengslanetum með C++. Titill verkefnisins: 'A comparative evaluation of state-of-the-art community detection algorithms for multiplex networks'.
+  \item Tók þátt í hópverkefni sem útfærði 'dynamic tracing' (notað í að mæla virkni forrits) fyrir Pony forritunarmálið.
+  \end{itemize}
+  \item \textbf{Dohop} (\textit{Maí. 2013 - Ágú. 2015})
+  \begin{itemize}
+  \item Ábyrgur fyrir útfærslu og viðhaldi á forritum sem sækja flug verð með Python.
+  \item Ábyrgur fyrir hönnun, útfærslu og viðhaldi á vef þjónustum í Python.
+  \item Ábyrgur fyrir að prótótýpa Dohop Android appið.
+  \end{itemize}
+  \item \textbf{University of Iceland} (\textit{Ágú. 2010 - Feb. 2014})
+  \begin{itemize}
+  \item Bachelor gráða í Tölvunarfræði.
+  \item Bachelor verkefni í Augmented Reality með notkun Python og OpenCV.
+  \item Sumarvinna sem hópmeðlimur í CRISIS sýndarveruleika verkefninu. Var ábyrgur fyrir að útfæra hljóð stjórnun í forritinu og uppsetningu á git þjóni. 
+  \end{itemize}
+\end{itemize}
+
+\section*{Meðmæli}
+Eftirfarandi aðilar geta sagt til um hvernig það var að vinna með mér: \newline
+
+\begin{itemize}
+  \item \textbf{Steindór Sigurðsson} (\textit{Yfirmaður þróunardeildar, Marorka})
+  \begin{itemize}
+  \item <óþekktur tölvupóstur>, +3548552000 
+  \end{itemize}
+  \item \textbf{Matteo Magnani} (\textit{Prófessor í Tölvunarfræði, Uppsala University})
+  \begin{itemize}
+  \item matteo.magnani@it.uu.se, +46184714021
+  \end{itemize}
+  \item \textbf{Kristján Bjarnason} (\textit{CTO, Dohop})
+  \begin{itemize}
+  \item kgb@dohop.com, +3545614848
+  \end{itemize}
+  \item \textbf{Ebba Þóra Hvannberg} (\textit{Prófessor í Tölvunarfræði, Háskóli Íslands})
+  \begin{itemize}
+  \item ebba@hi.is, +3548979196
+  \end{itemize}
+\end{itemize}
+
+
+\end{flushleft}
+\end{document} 

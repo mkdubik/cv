@@ -1,0 +1,123 @@
+\documentclass[10pt]{article}
+\usepackage[ampersand]{easylist}
+\usepackage[icelandic]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+
+\rhead{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\lhead{Mikael Dubik, Software Engineer}
+
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+\textbf{\@title}
+
+\@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+\title{\Huge Mikael Dubik}
+\date{}
+\author{%
+\huge Software Engineer\\
+\vspace*{8cm}\Large Einholt 7, 105 Reykjavík, Iceland\\
+  +354 8484903\\
+  mkdubik@gmail.com\\
+  https://dubik.is\\
+  github.com/mkdubik\\
+}
+
+\titleformat{\section}{\normalfont\fontsize{14}{14}\bfseries}{\thesection}{1em}{}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\begin{flushleft}
+
+\section*{Who I am}
+\large I am a graduated Computer Scientist, born and raised in Reykjavík, Iceland. Ever since my childhood years I've been designing and implementing various different projects involving programming, depending on the topic that is interesting for me at the time. I started my professional career in programming on my second year in University of Iceland. \newline
+
+When I'm not building software I enjoy cooking, all forms of lifting weights, hanging out with my friends, travelling and cycling. I speak and write fluently Icelandic, English and Polish. I can read and listen to Swedish but have a difficulties speaking it.  
+
+\section*{What I am looking for}
+I love writing code and solving challenging problems with the help of a computer. I'm especially interested in working on tasks which involve some form of automation, backend infrastructure or machine learning / data mining. I'm an experienced Linux user and prefer to work in such an environment. \newline
+
+An ideal company for me would be one that works on challenging problems, promotes creativity and embraces open source tools and programming languages. I prefer working in a Linux (bash/POSIX) environment. 
+
+\section*{Technologies}
+I have experience with the following programming languages, libraries and technologies: \newline
+
+\begin{tabular}{ l l l l l l}
+Python & Java & C++11 & C & Matlab & R\\
+NumPy & DTrace & OpenCV & DLib & Django & git\\
+Kafka & Zookeeper & EC2 &  & Android & \\
+MySQL & postgresql & MSSQL & redis & AWS DynamoDB \\
+\end{tabular}
+
+\newpage
+
+\section*{Career}
+I have worked and studied in the following companies and institutions: \newline
+
+\begin{itemize}
+  \item \textbf{Marorka} (\textit{Oct. 2017 - May. 2018})
+  \begin{itemize}
+  \item Responsible for designing and implementing an ETL data pipeline using Apache Kafka, EC2 with other AWS services.
+  \item Responsible for integrating an OData compatible API.
+  \end{itemize}
+  \item \textbf{Uppsala University} (\textit{Aug. 2015 - Oct. 2017})
+  \begin{itemize}
+  \item Masters degree in Computer Science
+  \item Master thesis on machine learning. Implemented graph (network) clustering algorithms using C++. Full title: 'A comparative evaluation of state-of-the-art community detection algorithms for multiplex networks'. 
+  \item Worked as part of a team implementing dynamic tracing framework for the Pony programming language as a part of assignment
+  \end{itemize}
+  \item \textbf{Dohop} (\textit{May. 2013 - Aug. 2015})
+  \begin{itemize}
+  \item Responsible for writing and maintaining API clients and web scrapers using Python.
+  \item Responsible for designing and implementing asynchronous microservices in Python using Twisted.
+  \item Responsible for prototyping and releasing Dohop for Android.
+  \end{itemize}
+  \item \textbf{University of Iceland} (\textit{Aug. 2010 - Feb. 2014})
+  \begin{itemize}
+  \item Bachelors degree in Computer Science
+  \item Bachelor thesis on Augmented Reality with Python and OpenCV
+  \item Summer job working as part of a group working on virtual environment. Responsible for setting up a git server and integrating voice recognition to the virtual environment.
+  \end{itemize}
+\end{itemize}
+
+\section*{References}
+I have worked for the following people and they can confirm my work experiences: \newline
+
+\begin{itemize}
+  \item \textbf{Steindór Sigurðsson} (\textit{Director of Research and Development, Marorka})
+  \begin{itemize}
+  \item <email currently unknown>, +3548552000 
+  \end{itemize}
+  \item \textbf{Matteo Magnani} (\textit{Senior lecturer at Department of Information Technology, Uppsala University})
+  \begin{itemize}
+  \item matteo.magnani@it.uu.se, +46184714021
+  \end{itemize}
+  \item \textbf{Kristján Bjarnason} (\textit{CTO, Dohop})
+  \begin{itemize}
+  \item kgb@dohop.com, +3545614848
+  \end{itemize}
+  \item \textbf{Ebba Þóra Hvannberg} (\textit{Professor at Faculty of Engineering and Computer Science, University of Iceland})
+  \begin{itemize}
+  \item ebba@hi.is, +3548979196
+  \end{itemize}
+\end{itemize}
+
+
+\end{flushleft}
+\end{document} 

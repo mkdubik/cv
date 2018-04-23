@@ -1,0 +1,16 @@
+Sæl/l,
+
+Ég heiti Mikael Dubik og er nýútskrifaður masters nemi úr tölvunarfræði frá Háskólanum í Uppsala í Svíþjóð, en er fæddur og uppalinn í vesturbænum. Ég er senda almenna umsókn og athuga hvort það séu einhver störf í boði hjá ykkur.
+
+Aðeins um mig: Ég hef verið að forrita síðan 2010 og hef unnið áður fyrir Háskóla Íslands og Dohop áður en ég fór í nám erlendis. Í dag er ég að starfa hjá Marorku en er leita mér að öðrum verkefnum.
+
+Ég hef áhuga á söfnun og greiningu gagna, forritun bakenda kerfa og viðhald á þeim. Ég hef aðallega reynslu í Linux / AWS umhverfi en get starfað í hvaða umhverfi sem er. Ég get unnið með hvaða forritunarmáli sem er og hef reynslu í Python, Java, R, C++, C#. Ég þróaði og rak bakenda kerfi í Python hjá Dohop, útfært machine learning algóriþma í C++11 fyrir masters verkefnið mitt og hef nýlega smíðað ETL gagnapípu hjá Marorku. Þegar það kemur að gagnageymslu hef ég átt reynslu með MySQL, MSSQL, postgres, redis og Apache Kafka.
+
+Ég er fær að vinna sjálfstætt en einnig í teymi og hef reynslu í Agile/Scrum. Einnig er ég fljótur að taka upp ný hugtök, koma mér fyrir og skila af mér vinnu.
+
+Í frítíma mínum hef ég aðallega áhuga á eldamennsku, lyftingum, hjólreiðum og kynnast nýrri tækni. Ég er einnig virkur blóðgjafi.
+
+Þakka fyrir að fara yfir umsóknina og vonandi heyri ég frá ykkur til baka.
+
+kv.
+Mikael D.
